@@ -1,0 +1,157 @@
+body {
+	font-family: "Times New Roman", Georgia, Serif;
+}
+
+p{ 
+	text-align: center;
+	font-size: 15px;
+	color: black;
+	margin-top: 2px;
+}
+
+thead{
+	background: #fcaf7e;
+}
+a{
+	margin-right: 85px;
+	text-decoration:none; 
+	color: black;
+
+}
+
+#boite{
+	margin-left: -547px;
+	height: 135px;
+	width: 150px;
+	position: absolute;
+	background-color: #fcaf7e;
+}
+.container{
+	text-align: center;
+}
+nav ul{
+	margin-right:-72px;
+}
+#cool{
+	background-color: #fcaf7e;
+	height: 40px;
+	width: 1110px;
+	margin-top: 0px;
+}
+#case1{
+	margin-top: -430px;
+	margin-left: 165px;
+}
+#hello{
+	margin-top: 450px;
+	margin-left: -9px;
+}
+#case2{
+	float: right;
+	margin-left:767px;
+	margin-top: -791px;
+	}
+#case3{
+	float: left;
+	margin-left: 35px;
+	margin-top: 37px;
+}
+
+#case4{
+	float: right;
+	margin-left:470px;
+	margin-top: -696px;
+}
+#case5{
+	float: right;
+	margin-left:911px;
+	margin-top: -697px;
+}
+.jumbotron{
+	height: 150px;
+}
+.jumbotron p{
+	margin-top: -55px;
+}
+
+
+footer
+{
+	height: 200px;
+	background-color: #444;
+	margin-top: 20px;
+}
+footer p
+{
+	text-align: center;
+	color: #fff;
+	padding-top: 80px
+}
+.img1{
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+.img2 {
+	width: 200px;
+	height: 200px;
+	float: right;
+}
+.copyright{
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+
+}
+#btn_infos{
+	margin-left: 86px;
+	text-align: center;
+}
+section div p {
+	font-size: 16px;
+}
+#formulaire{
+	height: 360px;
+}
+
+button {
+	margin-right: 15px;
+	background-color: #fcaf7e;
+}
+#commentaire{
+	background-color:#ffa;
+	height: 215px;
+}
+.chic{
+	margin-top: 15px;
+}
+#container {
+	width: 100px;
+	height: 100px;
+	position: relative;
+	background: #fcaf7e;
+  }
+  #animate {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	background-color: rgb(0, 0, 0);
+  }
+  .carre{
+	  margin-left:10px;
+  }
+  #bouger{
+	  margin-right: 988px;
+  }
+  .monter{
+	  margin-top: -121px;
+  }
+  #moving{
+	  height: 10px;
+	  background-color:#D94A38
+	  ;margin-left: 948px;
+	  margin-top: -50px;
+	  width:120px;
+	  height:50px;
+	  padding:40px;
+  }

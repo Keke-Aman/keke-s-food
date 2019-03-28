@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>KEKE'S FOOD CONTROL</title>
+	<meta charset="utf-8">
+	<link class="icon" rel="shortcut icon" href="img/kekefood.PNG">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://www.w3schools.com/lib/w3.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href ="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+
+</head>
+<body >
+
+		<nav class="navbar navbar-expand-sm fixed-top bg-light justify-content-center">
+				<div id="boite"><br><p> <span> <br> KEKE'S <br> FOOD CONTROL</span><br>La santé grâce à l'alimentation </p></div> 
+			<ul class="navbar-nav">
+				<li class="nav-item"><a class="nav-link" href="#accueil">
+					Accueil</a></li>                
+				<li class="nav-item"><a class="nav-link" href="#importance">Importance</a></li>
+				<li class="nav-item">
+				<a class="nav-link" href="#couleur">Couleurs</a>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link" href="#commentaire">Commentaire</a>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link" href="#contact">Contacts</a>
+				</li>
+			</ul><br><br>
+	</nav>
+	<img id="accueil" src="img/kekefood.PNG" style="margin-left: 430px;
+	width: 491px;
+	margin-top: 54px;">
+
+
+	<!--Une animation pour demander à l'utilisateur son nom -->
+	<p id="texte" style="width:495px;margin-left:428px;color:#000;background-color:#fcaf7e;">
+	</p>
+
+	<button onclick="myFunction()" style="background-color:#fcaf7e; margin-left:619px;">Appuyez moi</button>
+			<div class="container">
+					<table class="table">
+							<h2 id="importance">Importances</h2>
+							<thead>
+							  <tr>
+								<th>Fruits</th>
+								<th>Légumes</th>
+							  </tr>
+							</thead>
+							<tbody>
+							  <tr>
+								<td>Les fruits sont importants pour notre santé. 
+								Ils devraient occuper une place primordiale dans 
+								notre alimentation car source de vitamines, 
+								minéraux, fibres, antioxydants et énergie dont 
+								le rôle de protection générale de l'organisme est
+								 chaque jour confirmé.
+								Tous les scientifiques sont aujourd'hui d'accord 
+								pour dire que les personnes consommant suffisamment
+								de fruits sont moins souvent atteintes de maladies 
+								cardio-vasculaires, d'obésité, de cancers et de 
+								diabète. Par exemple les personnes qui consomment  
+								peu de fruits et de légumes ont 1,5 à 2 fois plus 
+								de risques de développer certains types de cancers 
+								que celles qui en mangent beaucoup.</td>
+								<td>
+										Les légumes sont le groupe alimentaire qui devrait occuper la plus 
+											grande place de votre assiette. Ils doivent être frais, 
+											cultivés localement et organiques. 
+											Vous devriez en consommer une majorité d’entre eux cru.
+											Ce sont des aliments essentiels, car sources de vitamines, de minéraux, 
+											de fibres. Sans légumes, vous privez votre organisme d’un éventail 
+											de micro-nutriments bénéfiques pour être en bonne santé.
+											Presque tout le monde serait en mesure de consommer autant de 
+											légumes que possible pour augmenter la quantité de fibres, les 
+											phytonutriments essentiels et, surtout, le potassium, qui 
+											comprime le sodium dans les aliments <br> transformés.</td>
+							  </tr>
+							  <tr>
+						  </table>
+			</div>
+				<!--l'affichage d'une information importante-->
+					
+			<div class="jumbotron">
+				<p >
+				Les fruits et légumes regorgent de substances nutritives 
+				qui permettent le fonctionnement de notre organisme 
+				t de se maintenir en bonne santé. Ils se parent de 
+				couleurs vives et variés qui indiquent plus ou moins
+				leur richesse en certaines molécules antioxydantes.
+				Découvrez les bienfaits des fruits et légumes en 
+				fonction de leurs couleurs. 
+				L’intérêt des fruits et légumes sont nombreux. Riches en fibres, ils permettent de réguler 
+				le transit et l’absorption des nutriments. <br> Grâce à leur forte teneur en antioxydants, 
+				ils protègent notre organismes des radicaux libres qui accélèrent prématurément le 
+				vieillissement de nos cellules et favorisent l'apparition de cancer. La couleur des 
+				fruits et légumes peut indiquer leur richesse en antioxydants et autres composés
+				 phytochimiques.
+				Les teneurs en antioxydants varient beaucoup
+				selon les variétés de fruits et de légumes, 
+				les conditions de culture (ensoleillement, 
+				saison, pays) et de stockage. Préférez donc 
+				toujours des fruits et légumes bio, locale 
+				et de saison.
+</p>
+			</div>
+			<div class="container"  id="cool"> <h3 id="couleur">Les fruits et Légumes rangés par Couleurs</h3></div>
+			<section class="form-inline" id="hello">
+
+				<div id="case1" class="container">
+				<h2 style="margin-right:720px;">Rouge</h2>
+				<div class="card" style="width:400px">
+				<img class="aliment" src="img/rouge1.jpg" width="100%">
+				<img class="aliment" src="img/rouge2.jpg" width="100%">
+				<img class="aliment" src="img/rouge3.jpg" width="100%">
+					<div class="card-body">
+						  <p class="card-text">Les fruits et légumes de couleur rouge renferment du lycopène, 
+							  un caroténoïde (pigment naturel allant du jaune au rouge) aux propriétés antioxydantes. 
+							  Le lycopène contribue à la santé cardiovasculaire (coeur et vaisseaux sanguins), protège 
+							  la peau des UV et jouent un rôle dans la prévention de certains cancers, notamment le 
+							  cancer de la prostate.
+								Comme pour tous les pigments caroténoïdes, la cuisson et la présence de matières 
+								grasses augmentent la biodisponibilité du lycopène. On n’hésite donc pas à cuire 
+								(à basse température de préférence) ses légumes rouges et à les recouvrir d’un 
+								filet d’huile d’olive ou de colza.
+								Où en trouver ? tomates, pastèque, fraises, framboises, cerises, pamplemousse rose.
+						</p>
+						<a href="page2/index.html" id="btn_infos" class="btn btn-primary">Plus d'Infos</a>
+					
+					</div>
+				</div>
+				</div>
+		
+		
+				<div id="case2" class="container">
+					<h2 style="margin-right:172px;">Vert</h2>
+					<div class="card" style="width:400px">
+							<img class="aliment1" src="img/vert1.jpg" width="100%">
+							<img class="aliment1" src="img/vert2.jpg" width="100%">
+							<img class="aliment1" src="img/vert3.jpg" width="100%">
+								<div class="card-body">
+									  <p class="card-text"> Les
+											végétaux verts comme les crucifères (brocoli, mâche, chou, cresson) 
+											contiennent des glucosinolates, des molécules aux propriétés 
+											antioxydantes, antibactériennes et anti-cancérigènes. 
+											Ils sont aussi particulièrement riches en fer et en 
+											vitamine B9 (acide folique).
+											Les légumes à feuilles vertes foncées renferment de 
+											la lutéine et de la zéaxanthine, des pigments caroténoïdes 
+											aux propriétés antioxydantes. Elles participent à la santé cardiovasculaire 
+											et la physiologie de l’œil.
+											Où en trouver ? Brocoli, mâche, épinards, cresson, 
+											laitue, chou (vert, frisé, de Bruxelles), poireau, 
+											roquette, épinards, petits pois, kiwi, avocat, 
+											courgette, et herbes (ciboulette, persil). <br><br>
+									</p>
+									<a href="page2/index.html" id="btn_infos" class="btn btn-primary">Plus d'Infos</a>
+								</div>
+							</div>
+				</div><br>
+
+				
+				<div id="case3" class="container">
+					<h2 style="margin-right:720px;">Violet</h2>
+					<div class="card" style="width:400px">
+					<img class="aliment2" src="img/violet1.jpg" width="100%">
+							<img class="aliment2" src="img/violet2.jpg" width="100%">
+							<img class="aliment2" src="img/violet3.jpg" width="100%">
+								<div class="card-body">
+									  <p class="card-text"> Ce n’est pas un hasard si l’on qualifie les petits baies de couleur 
+										  bleue et pourpre de “super-aliments”. Les fruits et légumes violets contiennent des composés 
+										  phénoliques comme les anthocyanes, des antioxydants qui luttent contre le vieillissement cellulaire. 
+										  Les anthocyanes ont un pouvoir antioxydant et anti-inflammatoire qui serait notamment très bénéfiques 
+										  aux sportifs car elles interviennent dans la récupération musuclaire.
+
+											Où en trouver ? Chou, raisin, cassis, myrtille, groseille, mûre, framboise, baie d’açaï, prune, aubergine.
+									</p>
+									<a href="page2/index.html" id="btn_infos" class="btn btn-primary">Plus d'Infos</a>
+								</div>
+							</div>
+				</div><br>
+
+				
+				<div id="case4" class="container">
+					<h2 style="margin-right:460px;">Jaune</h2>
+					<div class="card" style="width:400px">
+							<img class="aliment3" src="img/jaune1.jpg" width="100%">
+									<img class="aliment3" src="img/jaune2.jpg" width="100%">
+									<img class="aliment3" src="img/jaune3.jpg" width="100%">
+										<div class="card-body">
+											  <p class="card-text">S’ils attirent l’oeil par leur couleur vive, les fruits et légumes 
+												  de couleur jaune et orangée ont aussi l’avantage d’être très riches en caroténoïdes 
+												  et notamment en bêta-carotène, appelé aussi pro-vitamine A. Les fruits et légumes jaunes-orangés 
+												  contiennent également des flavonoïdes, intéressants dans la prévention cardiovasculaire ainsi 
+												  qu’immunitaire. 
+													Où en trouver ? Abricot, ananas, carotte, melon, clémentine orange, mangue, pamplemousse, 
+													poivron, pêche, mirabelle, melon, patate douce, courge, citrouille, potiron.
+											</p>
+											<a href="page2/index.html" id="btn_infos" class="btn btn-primary">Plus d'Infos</a>
+										</div>
+									</div>
+				</div>
+				
+				
+				<div id="case5" class="container">
+					<h2 style="margin-right:20px;">Blanc-Gris</h2>
+					<div class="card" style="width:400px">
+							<img class="aliment4" src="img/blanc1.jpg" width="100%">
+									<img class="aliment4" src="img/blanc2.jpg" width="100%">
+									<img class="aliment4" src="img/blanc3.jpg" width="100%">
+										<div class="card-body">
+											  <p class="card-text"> Plus discrets, les fruits et légumes de couleur blanche, grise, 
+												  beige ou brune sont bien plus riches en nutriments qu’ils n’y paraissent. Ils 
+												  renferment de l’allicine, un composé qui lutte contre les cellules cancéreuses. 
+												  L’ail est d’ailleurs l’aliment qui en contient le plus. Les fruits et légumes blancs 
+												  apportent également du potassium, un minéral qui intervient dans la régulation de la 
+												  tension artérielle.
+
+													Où en trouver ? ail, champignon, banane, chou-fleur, oignon, pomme de terre, poire, 
+													salsifi, asperge, topinambour, panaïs, navet
+											</p>
+											<a href="page2/index.html" id="btn_infos" class="btn btn-primary">Plus d'Infos</a>
+										</div>
+									</div>
+				</div><br>
+				
+			</section>
+
+			
+
+
+
+			<div class="container" id="commentaire">
+				<div class="chic"> <br><br>
+					<p><button id="bouger" onclick="myMove()">Animation</button></p> 
+
+<div class="carre" id ="container">
+  <div id ="animate"></div>
+</div>
+<div class="monter">
+					<h3 style="text-align:center; margin-left: 10px;">Ajoutez un commentaire</h3>
+			<button onclick='var nouveauCommentaire = prompt("Donner votre nom? \n Entrez votre commentaire? ");
+			toDoList.push(nouveauCommentaire);'>Ajouter un commentaire</button>
+			<button onclick='var aff = alert("Votre commentaire est : "+toDoList)'>Afficher les commentaires</button><br>
+			</div>
+		</div>
+			<div id="mouving" onmouseover="mOver(this)" onmouseout="mOut(this)" 
+				style="background-color:#fcaf7e;margin-left: 948px;margin-top: -50px;width:125px;height:100px;padding:40px;">
+				<p style="margin-top:-17px;">KEKE'S<br>FOOD<br>CONTROL</p></div>
+		</div>
+
+			<footer >
+            
+				<section  id="contact">
+					<div class="welcome">
+						<img class="img1" src="img/kekefood.PNG">
+						<img class="img2" src="img/kekefood.PNG">
+						<p>
+							  <strong>KEKE'S FOOD CONTROL <br>
+									Tél: +225 89 76 42 93 / +225 42 56 86 85  <br> @ : kekesfoodcontrol@gmail.com
+									
+									Copyright © 2019 KEKE'S FOOD CONTROL. </strong>
+						  </p>
+						  <div class="copyright">Copyright © 2019. Tous droits réservés.</div>
+					</div>
+				</section>
+			</footer>
+		
+
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
